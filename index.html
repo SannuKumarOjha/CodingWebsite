@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkCodingSchool</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="WebLoder()">
+    <div id="loading"></div>
+    <header>
+      <!-- Navbar Design -->
+
+      <nav class="navbar">
+        <div class="logo" style="display: flex;
+        align-items: center; justify-content: center;">
+          <img src="logo.png" style="width: 45px;" alt="Logo">
+          SkCodingSchool
+        </div>
+        <div class="srch">
+          <input type="search" id="Search-btn" placeholder="Search">
+          <div class="btn">
+            <button type="button"><i
+                class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- nav-bottom -->
+
+      <div class="nav-bottom">
+        <div class="menu">
+          <span class="menu-btn" onclick="openSidebar()">&#9776;</span>
+        </div>
+        <ul>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">React.js</a></li>
+          <li><a href="#">Express.js</a></li>
+          <li><a href="#">Node.js</a></li>
+          <li><a href="#">MongoDB</a></li>
+          <li><a href="#">Java</a></li>
+          <li style="width: 115px;"><a href="#">Spring Boot</a></li>
+          <li><a href="#">MySQL</a></li>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">PHP</a></li>
+          <li><a href="#">C/C++</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Container Design -->
+
+    <div class="container">
+      <div class="shdo first pd" id="firstSide">
+        <span id="close-btn" onclick="closeBtn()">&#10006;</span>
+        <p>Java Exercise &#187</p>
+        <a href="#">Introduction to Java</a>
+        <a href="#">JDK,JRE,JVM</a>
+        <a href="#">Installation of JDK</a>
+        <a href="#">DataTypes in Java</a>
+        <a href="#">Variables in Java</a>
+        <a href="#">Keywords in Java</a>
+        <a href="#">Identifier in Java</a>
+        <a href="#">Conditional Statement</a>
+        <a href="#">Loops in Java</a>
+        <a href="#">Transfer Statement</a>
+        <a href="#">Switch Statement</a>
+        <a href="#">Operators in Java</a>
+        <a href="#">Methods in Java</a>
+        <a href="#">Arrays in Java</a>
+
+        <p style="margin-top: 40px;">OOPS Concept &#187</p>
+        <a href="#">Object</a>
+        <a href="#">Class</a>
+        <a href="#">Constructor and it's type</a>
+        <a href="#">Inheritance</a>
+        <a href="#">Polymorphism</a>
+        <a href="#">Encapsulation</a>
+        <a href="#">Abstraction</a>
+
+        <p
+          style="color:rgb(210, 30, 75); font-weight: 300;">----x---------x----</p>
+
+        <a href="#">String in Java</a>
+        <a href="#">Super Keywords</a>
+        <a href="#">This Keywords</a>
+        <a href="#">Instance and Static Block</a>
+        <a href="#">Interface in Java</a>
+        <a href="#">Exception Handling</a>
+        <a href="#">File Handling</a>
+        <a href="#">Multithreading in Java</a>
+        <p>Collection Framework &#187</p>
+        <a href="#">Array List</a>
+        <a href="#">Linked List</a>
+        <a href="#">Hash Map</a>
+        <a href="#">Tree Map</a>
+        <a href="#">Hash Set</a>
+        <a href="#">Tree Set</a>
+
+      </div>
+      <div class="shdo second pd">
+        <h2 class="headingH1">Introduction to Java</h2>
+        <p class="update">Last update on Sep 05 2024 07:40:01 (UTC/GMT +8
+          hours)</p>
+         <div class="ads-centre"><!-- Ads Run Here --></div>
+        <h2 class="start-heading" style="text-align: center;">&#187 Java
+          Exercises &#187</h2>
+        <hr>
+        <br>
+        <h2 style="color: rgb(204, 54, 54);">What is Java?</h2>
+        <p class="notes-java">Java is a high-level, object-oriented programming
+          language that was first released by Sun Microsystems in 1995. It is
+          designed to be platform-independent, meaning that Java code can run on
+          any device that has a Java Virtual Machine (JVM) installed. This
+          concept is often referred to as <mark>“write once, run anywhere”</mark> .
+        </p>
+        <p class="notes-java">
+          Java is widely used for building enterprise-scale applications,
+          mobile applications, web applications, and even embedded systems. It
+          is known for its robustness, security features, and ease of use. The
+          language syntax is similar to C and C++, but it includes automatic
+          memory management (garbage collection) and other features that make
+          it easier to write reliable and maintainable code.
+        </p>
+        <p class="notes-java">
+          Java applications are typically compiled into bytecode, which can be
+          executed by the JVM, making it highly portable across different
+          platforms.
+        </p>
+
+
+        <h2 style="color: rgb(204, 54, 54); margin-top: 50px; margin-bottom: 20px;">History of Java?</h2>
+
+        <p class="notes-java">
+          <ol style="margin-left: 30px;">
+            <li><b>Origins:</b> Java was developed by James Gosling and his team at Sun Microsystems in the early 1990s. The project began in June 1991 and was initially called “Greentalk” and later "Oak" .</li>
+            <li style="margin-top: 20px;">
+              <b>Initial Purpose:</b> It was originally designed for interactive television, but the technology was too advanced for the digital cable television industry at the time. The focus then shifted to internet programming.
+            </li>
+            <li style="margin-top: 20px;">
+              <b>Naming:</b> The name “Java” was chosen in 1995. It was inspired by Java coffee, which was consumed in large quantities by the development team.
+            </li>
+            <li style="margin-top: 20px;">
+              <b>First Release:</b> Java 1.0 was officially released on January 23, 1996. It quickly gained popularity due to its platform-independent nature, allowing developers to write code once and run it anywhere.
+            </li>
+            <li style="margin-top: 20px;">
+              <b>Evolution:</b> Over the years, Java has evolved significantly, with numerous versions adding new features and improvements. Some notable versions include Java 2 (introduced in 1998), Java 5 (2004), Java 8 (2014), and the latest, Java 22 (2024).
+            </li>
+            <li style="margin-top: 20px;">
+              <b>Current Use:</b> Today, Java is widely used in various domains, including web applications, mobile applications, enterprise software, and more. It remains one of the most popular programming languages in the world
+            </li>
+          </ol>
+        </p>
+
+        <!-- <div class="exercise-java">
+          <h2>List of Java Exercises:</h2>
+          <hr>
+          <br>
+          <ul>
+            <li><a href="#">Basic Exercises Part-I [ 150 Exercises with Solution
+                ]</a></li>
+            <li><a href="#">Basic Exercises Part-I [ 150 Exercises with Solution
+                ]</a></li>
+            <li><a href="#">Basic Exercises Part-I [ 150 Exercises with Solution
+                ]</a></li>
+            <li><a href="#">Basic Exercises Part-I [ 150 Exercises with Solution
+                ]</a></li>
+            <li><a href="#">Basic Exercises Part-I [ 150 Exercises with Solution
+                ]</a></li>
+            <li><a href="#">Basic Exercises Part-I [ 150 Exercises with Solution
+                ]</a></li>
+            <li><a href="#">Basic Exercises Part-I [ 150 Exercises with Solution
+                ]</a></li>
+            <li><a href="#">Basic Exercises Part-I [ 150 Exercises with Solution
+                ]</a></li>
+            <li><a href="#">Basic Exercises Part-I [ 150 Exercises with Solution
+                ]</a></li>
+            <li><a href="#">Basic Exercises Part-I [ 150 Exercises with Solution
+                ]</a></li>
+            <li><a href="#">Basic Exercises Part-I [ 150 Exercises with Solution
+                ]</a></li>
+            <li><a href="#">Basic Exercises Part-I [ 150 Exercises with Solution
+                ]</a></li>
+          </ul>
+        </div> -->
+        
+        <!-- <p class="Note">Note: If you are not habituated with Java programming
+          you can learn from the following :</p> -->
+
+
+          <div class="btns" style="display: flex; align-items: center; justify-content: space-around; width: 100%; height: 100px; margin-top: 70px;">
+            <button class="prev" type="submit" style="outline: none; border: none; padding: 7px 13px; background-color: #eaeaea; color: black; font-weight: 700; font-size: 16px;cursor: pointer;">Previous</button>
+            <button class="next" type="submit" style="outline: none; border: none; padding: 7px 19px; background-color: rgb(70, 70, 243); color: #fff; font-weight: 700; font-size: 16px; cursor:pointer ;">Next</button>
+          </div>
+      </div>
+      <div class="shdo third pd">
+        <h1>Ads Run Here</h1>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <script src="script.js"></script>
+  </body>
+</html>
